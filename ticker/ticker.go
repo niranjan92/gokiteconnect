@@ -12,8 +12,8 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	kiteconnect "github.com/zerodha/gokiteconnect/v4"
-	"github.com/zerodha/gokiteconnect/v4/models"
+	kiteconnect "github.com/niranjan92/gokiteconnect/v4"
+	"github.com/niranjan92/gokiteconnect/v4/models"
 )
 
 // Mode represents available ticker modes.
@@ -757,4 +757,3 @@ func convertPrice(seg uint32, val float64) float64 {
 		return val / 100.0
 	}
 }
-
